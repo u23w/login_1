@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&display=swap');
+body{
+    background-color: #d1d1d1;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Philosopher', sans-serif;
+}
+.all{
+    background-color: #ffffff;
+    width: 500px;
+    height: 600px;
+    border-radius: 9px;
+}
+.all .fic{
+    margin: 30px;
+    display: inline-block;
+}
+.all .fic .icon{
+   float: left;
+   padding-right: 330px;
+}
+
+.all .fic .flag{
+    float: right;
+    padding-right: 10px;
+ }
+ h2 , h4{
+    font-family: 'Philosopher', sans-serif;
+    margin: 30px;
+ }
+ .inptd input{
+    margin-left: 30px;
+    margin-bottom: 3px;
+    width: 430px;
+    height: 28px;
+    border-radius: 9px;
+    border: 1px  solid black;
+    outline: none;
+    font-size: medium;
+ }
+ .boxx{
+    display:flex;
+    margin-left: 30px;
+
+ }
+ .boxx input{
+    width: 23px;
+    
+ }
+ .boxx a{
+    padding-left: 200px;
+    margin: 10px;
+    color: black;
+
+ }
+ button{
+    width: 400px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 9px;
+    height: 45px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: large;
+ }
+ .all .fic .flag:hover{
+    float: right;
+    width: 40px;
+    
+ }
+ .all .fic .icon:hover{
+    float: left;
+    width: 70px;
+    padding-right: 330px;
+ }
